@@ -1,0 +1,18 @@
+/* Базовые стили */
+$primary-color: #3498db;
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: $primary-color;
+  transition: color 0.3s ease;
+
+  //&:hover {
+  //  color: darken($primary-color, 10%);
+  //}
+}
